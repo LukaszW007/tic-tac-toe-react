@@ -1,0 +1,37 @@
+.order, .board {
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    width: 300px;
+    visibility: visible;
+}
+
+.order {
+    height: 50px;
+}
+
+.board {
+    display: table;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    border: solid #000000;
+    font-size: 25px;
+    text-align: center;
+}
+.winner{
+    visibility: hidden;
+    font-size: 50px;
+    color: #5025;
+}
+
+.winners-list-space {
+    margin: 50px 0 0 0;
+}
+
+.winners-list {
+    list-style-type: circle;
+    margin-top: 50px;
+}
